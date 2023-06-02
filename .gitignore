@@ -1,0 +1,5 @@
+__pycache__/
+/SoundStream_24k_240d/_data/
+/SoundStream_24k_240d/_logs/
+/.venv
+*.pyc

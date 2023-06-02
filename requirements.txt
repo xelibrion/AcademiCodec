@@ -1,0 +1,7 @@
+torch<2.0
+tqdm
+soundfile
+librosa
+torchaudio
+einops
+tensorboard
