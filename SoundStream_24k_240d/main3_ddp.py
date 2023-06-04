@@ -475,7 +475,8 @@ def train(
                             fmap_s_g,
                         )
                         valid_loss_d += loss_d.item()
-            if dist.get_rank() == 0:
+            if args.local_rank == 0:
+                # if dist.get_rank() == 0:
                 best_model = soundstream.state_dict().copy()
                 latest_model_soundstream = soundstream.state_dict().copy()
                 latest_model_dis = stft_disc.state_dict().copy()

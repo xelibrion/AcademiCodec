@@ -1,5 +1,7 @@
 __pycache__/
+*.py[cod]
+*$py.class
+
 /SoundStream_24k_240d/_data/
 /SoundStream_24k_240d/_logs/
 /.venv
-*.pyc
